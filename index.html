@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="left">
+               <h1> My Portfolio</h1>
+            </div>
+            <div class="right">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/">About</a></li>
+                    <li><a href="/">Services</a></li>
+                    <li><a href="/">Projects</a></li>
+                    <li><a href="/">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="First">
+            <div class="left-Section">
+               <div>Hi, My Name is </div> 
+               <span class="Name">Shaik Firoz</span>
+               <div>and i am a passionate</div>
+                <span id="element"></span>
+                <br>
+                <button class="Github"  onclick="window.location.href='https://github.com/Firoz768';"><img src="Github.png" alt=""></button>
+                <a href="mailto:firozshaik715@gmail.com"  >
+                    <img src="Email.webp" alt="" style="width: 64px;"></a>
+            </div>
+            <div class="right-Section">
+                <img src="firozbg.png" alt="Firoz.png">
+            </div>
+        </section>
+        <hr>
+
+        <section class="Second" >
+          <h2>About Me</h2>
+          <span id="text"></span>
+        </section>
+        <hr>
+
+        <section class="Third">
+            <img src="bg.png" alt="">
+            <div class="skills">
+                <div class="right-content">
+                  <div>
+                    <h1 class="skills-heading">My Skills</h1>
+                  </div>
+                  <div class="skills-bar">
+                    <div class="bar">
+                      <div class="info">
+                        <span>HTML</span>
+                      </div>
+                      <div class="progress-line"><span class="html"></span></div>
+                      <div class="bar">
+                        <div class="info">
+                          <span>CSS</span>
+                        </div>
+                        <div class="progress-line"><span class="css"></span></div>
+                        <div class="bar">
+                          <div class="info">
+                            <span>BOOTSTRAP</span>
+                          </div>
+                          <div class="progress-line"><span class="bootstrap"></span></div>
+                          <div class="bar">
+                            <div class="info">
+                              <span>JAVASCRIPT</span>
+                            </div>
+                            <div class="progress-line"><span class="javascript"></span></div>
+                            <div class="bar">
+                              <div class="info">
+                                <span>C Programming</span>
+                              </div>
+                              <div class="progress-line"><span class="c"></span></div>
+                              <div class="bar">
+                                <div class="info">
+                                    <span>Java</span>
+                                </div>
+                                <div class="progress-line"><span class="Java"></span></div>
+                            </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+        </section>
+        <hr>
+
+        <section class="Projects">
+                <h2>My Projects</h2>
+        </section>
+        <hr>
+    </main>
+    <footer>
+        <div class="flex">
+            <div class="footer-first">
+                <h3>My Portfolio</h3>
+            </div>
+        <div class="footer-second">
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Services</li>
+                <li>Contact</li>
+            </ul>
+        </div>
+        <div class="footer-third"> <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Services</li>
+                <li>Contact</li>
+            </ul></div>
+        <div class="footer-fourth"> <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Services</li>
+                <li>Contact</li>
+            </ul></div>
+    </div>
+    <div class="footer-text">
+        Copyright &copy; www.MyPortfolio.com | All Rights Reserved
+    </div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: [' Web-Developer.', 'Video Editor.', ' Programmer too.'],
+            typeSpeed: 30,
+            loop: true
+        });
+        var typed = new Typed('#text', {
+            strings: ['Hi, Myself Shaik Firoz Babu','I am pursuing Btech 2nd year In the Audisankara College Of Engineering and Technology'],
+            typeSpeed: 5,
+            loop: true
+        });
+    </script>
+</body>
+</html>
